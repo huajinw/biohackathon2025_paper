@@ -332,6 +332,7 @@ The pipeline comprises four main steps:
 The software tools employed in this pipeline include [bcftools](https://samtools.github.io/bcftools/) [@Danecek2021; @bcftools], [GLIMPSE2](https://odelaneau.github.io/GLIMPSE/) [@Rubinacci2021; @Rubinacci2022; @GLIMPSE], [Nextflow](https://github.com/nextflow-io/nextflow) [@DiTommaso2017; @nextflow2017], and [Docker](https://github.com/docker) [@Merkel2014; @docker2025].
 
 ***Operation***  
+
 Users can execute the Nextflow pipeline on their chosen phased, WGS dataset to create a customized reference panel. The pipeline's modular design facilitates straightforward integration into existing workflows, enhancing its adaptability for various research applications. 
 
 ## 2.4 Rapid Longitudinal Analysis of Public Health Data 
@@ -346,6 +347,7 @@ Our causal discovery pipeline consists of three major steps, with each step cont
    
 
 **Step1: Parsing User Input YAML File**  
+
 *This step ensures that causal discovery is performed on a relevant, well-structured dataset, reducing noise and improving interpretability.*
 
 Input: 
@@ -367,6 +369,7 @@ Processing:
 Output: A cleaned, preprocessed dataset filtered based on user criteria, ready for causal discovery & a SQL database containing structured, efficiently retrievable patient records.
 
 **Step2: Running Tetrad on Preprocessed Data**  
+
 *This step applies advanced statistical and machine learning techniques to uncover potential causal relationships in ICU patient data, moving beyond correlation-based analyses.*
 
 Input:
@@ -384,6 +387,7 @@ Processing:
 Output: Causal graphs (DAGs) illustrating the relationships between clinical variables & a tabular output listing causal dependencies, effect sizes, and statistical confidence measures.
 
 **Step3: Parsing Tetrad Output for Analysis**  
+
 *This step ensures that the discovered causal relationships are accessible, interpretable, and useful for clinical decision-making, enabling a data-driven approach to patient care.*
 
 Input: 
@@ -407,12 +411,13 @@ How to use it?
 
 ### **Figures & Tables**
 
-![Figure 1](./image1.png) 
+![Figure 1](./image1.png)
 
 **Figure 1: Overview of the methodology implemented**
 
-![Figure 2](./image2.jpg)  
-**Figure 2: Plot of Tetrad-discovered causal relationships from MIMIC-III CareVue subset** [@johnson2022mimic]
+![Figure 2](./image2.jpg)
+**Figure 2: Plot of Tetrad-discovered causal relationships from
+MIMIC-III CareVue subset** [@johnson2022mimic]
 
 ## 2.5 Lenski-esque GNN Competition Trials
 
@@ -449,7 +454,7 @@ Everyone is welcome to clone the repository and build upon the project, for exam
 
 ### **Methods – Implementation (how did you build it?)**
 
-This workflow aims to generate population-specific genome graphs that highlight the genetic variants influencing the expression of a target protein. These graphs are constructed based on pQTL (protein quantitative trait loci) data and genomic annotations, ultimately representing how different genetic variations impact protein expression across populations. We systematically analyze chromosome-specific variants affecting ACE protein expression using protein quantitative trait loci (pQTL) data [@Sun2023]. We integrate this data with the latest human reference genome (GRCh38.p14) [@gencodegenes\_human] and functional genomic annotations from GTF files to pinpoint coding and regulatory variants . To visualize population-specific genetic architectures, we construct disconnected genome graphs, where nodes represent genetic variants with key attributes such as effect size (Beta), p-value, and functional annotations. By comparing these graphs across populations, we aim to uncover distinct genetic influences on ACE protein expression, providing insights into population-specific regulatory mechanisms and their implications in precision medicine. This framework serves as a scalable approach for multi-omics graph analysis in complex trait studies.  We build the workflow as follows:
+This workflow aims to generate population-specific genome graphs that highlight the genetic variants influencing the expression of a target protein. These graphs are constructed based on pQTL (protein quantitative trait loci) data and genomic annotations, ultimately representing how different genetic variations impact protein expression across populations. We systematically analyze chromosome-specific variants affecting ACE protein expression using protein quantitative trait loci (pQTL) data [@Sun2023]. We integrate this data with the latest human reference genome (GRCh38.p14) [@gencodegenes_human] and functional genomic annotations from GTF files to pinpoint coding and regulatory variants . To visualize population-specific genetic architectures, we construct disconnected genome graphs, where nodes represent genetic variants with key attributes such as effect size (Beta), p-value, and functional annotations. By comparing these graphs across populations, we aim to uncover distinct genetic influences on ACE protein expression, providing insights into population-specific regulatory mechanisms and their implications in precision medicine. This framework serves as a scalable approach for multi-omics graph analysis in complex trait studies.  We build the workflow as follows:
 
 **Target Protein pQTL Data Processing** The workflow begins with the processing of protein quantitative trait loci (pQTL) data for the target protein. This dataset consists of chromosome-specific variant files, one for each of the 23 chromosomes. These files are used to identify genetic variants associated with the target protein. The variants are extracted and organized by chromosome to facilitate downstream filtering and analysis. This step ensures that all relevant genetic information for the target protein is included in the pipeline.
 
