@@ -111,9 +111,9 @@ authors:
     affiliation: 35
   - name: Ben Busby
     orcid: ''
-  - affiliation: 36
+    affiliation: 36
 
-  - affiliations:
+affiliations:
   - name: Carnegie Mellon University, Pittsburgh, Pennsylvania
     index: 1
   - name: Univ. Grenoble Alpes, CNRS, UMR 5525, TIMC / BCM, 38000 Grenoble, France
@@ -150,35 +150,35 @@ authors:
     index: 17
   - name: Software & Societal Systems Department, School of Computer Science, Carnegie Mellon University,Pittsburgh, Pennsylvania, 15213
     index: 18
-   - name: Complex Trait Genetics Lab, Smurfit Institute of Genetics, Trinity College Dublin, Ireland
-    index:  19        
-   - name: University of Pittsburgh
+  - name: Complex Trait Genetics Lab, Smurfit Institute of Genetics, Trinity College Dublin, Ireland
+    index: 19
+  - name: University of Pittsburgh
     index: 20
-   - name: Computational Biology Department, School of Computer Science, Carnegie Mellon University, Pittsburgh, Pennsylvania
+  - name: Computational Biology Department, School of Computer Science, Carnegie Mellon University, Pittsburgh, Pennsylvania
     index: 21
-   - name: Computational Biology Department, School of Computer Science, Carnegie Mellon University, Pittsburgh, Pennsylvania
+  - name: Computational Biology Department, School of Computer Science, Carnegie Mellon University, Pittsburgh, Pennsylvania
     index: 22
-   - name: San Jose State University, San Jose, CA
+  - name: San Jose State University, San Jose, CA
     index: 23
-   - name: Department of Bioinformatics,Pondicherry University, India
+  - name: Department of Bioinformatics,Pondicherry University, India
     index: 24
-   - name: Complex Trait Genetics Lab, Smurfit Institute of Genetics, Trinity College Dublin, Ireland
+  - name: Complex Trait Genetics Lab, Smurfit Institute of Genetics, Trinity College Dublin, Ireland
     index: 25
-   - name: Family Genomics Research Group, Department of Biology, Maynooth University, Ireland
+  - name: Family Genomics Research Group, Department of Biology, Maynooth University, Ireland
     index: 26
-   - name: Carnegie Mellon University
+  - name: Carnegie Mellon University
     index: 27
-   - name: APC Microbiome Ireland, Biosciences Building, University College Cork, Ireland
+  - name: APC Microbiome Ireland, Biosciences Building, University College Cork, Ireland
     index: 28
-   - name: School of Life Sciences, EPFL, Lausanne, Switzerland
+  - name: School of Life Sciences, EPFL, Lausanne, Switzerland
     index: 29
-   - name: Computational Biology Department, Carnegie Mellon University, Pittsburgh, Pennsylvania
+  - name: Computational Biology Department, Carnegie Mellon University, Pittsburgh, Pennsylvania
     index: 30
-   - name: University of Pittsburgh, Department of Microbiology and Molecular Genetics, Pittsburgh, PA
+  - name: University of Pittsburgh, Department of Microbiology and Molecular Genetics, Pittsburgh, PA
     index: 31
-   - name: University of South Florida
+  - name: University of South Florida
     index: 32
-   - name: Carnegie Mellon University, Pittsburgh, PA
+  - name: Carnegie Mellon University, Pittsburgh, PA
     index: 33
   - name: Carnegie Mellon University Libraries, Pittsburgh, PA
     index: 34
@@ -192,9 +192,6 @@ authors_short: Sabata et al. (2025) BioHackrXiv
 group: BioHackrXiv
 event: BioHackathon Pittsburgh 2025
 ---
-
-
-
 
 # 1. Introduction
 
