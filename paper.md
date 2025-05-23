@@ -112,7 +112,7 @@ authors:
     affiliation: 35
   - name: Ben Busby
     orcid: ''
-    affiliation: 36
+  - affiliation: 36
 
 affiliations:
   - name: Carnegie Mellon University, Pittsburgh, Pennsylvania
@@ -280,8 +280,9 @@ The workflow consists of three primary steps:
 
 **Mathematical model:**   
 The adapted model is structured as: 
-
-y \= M+g0+g1+e+  
+$$
+y = M\alpha + g\beta_0 + g\beta_1 + e + \epsilon
+$$
 where y represents the phenotype vector, containing the observed trait values for the individuals, M is a matrix of covariates that includes any relevant fixed effects or confounders, g denotes the genotype of the query single nucleotide variant (SNV), which is selected based on its strong effect on the phenotype of interest, 0 is the parameter associated with the main effect of query SNV on the phenotype, 
 
 **Methods – Operation (how do people use it?)**
@@ -410,10 +411,10 @@ How to use it?
 
 ### **Figures & Tables**
 
-![Figure 1][./image1.png]  
+![Figure 1](./image1.png) 
 *Figure 1: Overview of the methodology implemented* 
 
-![Figure 2][./image2.png]  
+![Figure 2](./image2.png)  
 *Figure 2: Plot of Tetrad-discovered causal relationships from MIMIC-III CareVue subset* [johnson2022mimic]
 
 ## 2.5 Lenski-esque GNN Competition Trials
@@ -475,24 +476,24 @@ Once the filtered tab separated value (.tsv) file is created, utilize the graph.
 
 ### **Figures and tables**
 
-![Figure 3][./image3.png]  
+![Figure 3](./image3.png)
 **Figure 3. Data integration and graph construction**  
 
-![Figure 4][./image4.png]  
+![Figure 4](./image4.png)  
 **Figure 4. Genome graph**
 
 
-![Figure 5][./image5.png]  
+![Figure 5](./image5.png)
 **Figure 5. Protein network (from [GENengnews2025])**
 
 
-![Figure 6][./image6.png] 
+![Figure 6](./image6.png) 
 **Figure 6. Gene variants in population (from [statnews2016])**  
  
-![Figure 7][./image7.png] 
+![Figure 7](./image7.png) 
 **Figure 7. Population gene graphs (from [nihpangenome2023])**  
  
-![Figure 8][./image8.png] 
+![Figure 8](./image8.png) 
 **Figure 8. Generate gene-specific graphs for variant annotation and analysis**  
  
 
@@ -526,7 +527,7 @@ From a software perspective, it would also be valuable to package the code into 
 
 ## 3.3 Generation of imputation panels for combined sequencing with biobank data
 
-![Figure 9][./image9.png]  
+![Figure 9](./image9.png)  
 **Figure 9\. Nextflow pipeline**  
 
 
