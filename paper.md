@@ -402,7 +402,7 @@ Output: Graphical representations of causal relationships between clinical featu
 
 How to use it?
 
-| *Open a bash window and execute the following commands to run the project: \#\!/bin/bash \# Exit immediately if a command exits with a non-zero status set \-e \# Input to this step: User\_input\_yaml.txt echo "Step 1: Generating example user input..." Rscript GenerateExampleUserInput.r echo "Creating SQLite database..." bash Create\_SQLite\_DB.sh echo "Parsing user input and filtering dataset tables..." Rscript ParseUserInput.r \# Input to this step (Output from previous step): Knowledge.txt echo "Step 2: Running Tetrad with the parsed input..." Rscript Run\_tetrad\_from\_yaml.r echo "Step 3: Visualizing the Tetrad output..." Rscript s\_visualize\_tetrad\_output\_RS\_AMP.R echo "✅ Done\!"* |
+| *Open a bash window and execute the following commands to run the project: \#\!/bin/bash \# Exit immediately if a command exits with a non-zero status set \-e \# Input to this step: User\_input\_yaml.txt echo "Step 1: Generating example user input..." Rscript GenerateExampleUserInput.r echo "Creating SQLite database..." bash Create\_SQLite\_DB.sh echo "Parsing user input and filtering dataset tables..." Rscript ParseUserInput.r \# Input to this step (Output from previous step): Knowledge.txt echo "Step 2: Running Tetrad with the parsed input..." Rscript Run\_tetrad\_from\_yaml.r echo "Step 3: Visualizing the Tetrad output..." Rscript s\_visualize\_tetrad\_output\_RS\_AMP.R echo " Done\!"* |
 | :---- |
 
 ### **Figures & Tables**
