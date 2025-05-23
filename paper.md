@@ -189,7 +189,7 @@ authors:
     index: 36
 date: 21 May 2025
 bibliography: paper.bib
-authors_short: Last et al. (2025) BioHackrXiv  template
+authors_short: Sabata et al. (2025) BioHackrXiv
 group: BioHackrXiv
 event: BioHackathon Pittsburgh 2025
 ---
