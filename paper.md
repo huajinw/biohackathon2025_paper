@@ -592,11 +592,10 @@ If you or your colleagues are interested in collaborating on these or similar pr
 
 We would like to thank Carnegie Mellon University Libraries and DNAnexus Inc. for organizing and hosting this event. DNAnexus Inc. provided cloud computing resources, as well as support from Theresa Wohlever. Tom Hughes provided logistical support.
 
-## 6. Grant Funding
-
+**Grant Funding**
 JK is supported by the France 2030 state funding managed by the National Research Agency with the reference "ANR-22-PEPRSN-0013".
 
-# 7. Appendix
+# 6. Appendix
 
 ## Rapid Longitudinal Analysis of Public Health Data 
 
