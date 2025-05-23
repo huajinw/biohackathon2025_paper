@@ -3,7 +3,6 @@ title: 'Addressing Background Genomic and Environmental Effects on Health throug
 tags:
   - replace with your own keywords
   - at least 3 is recommended
-
 authors:
   - name: Siddharth Sabata
     orcid: 0000-0003-8909-4794
