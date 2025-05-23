@@ -114,7 +114,7 @@ authors:
     orcid: ''
   - affiliation: 36
 
-affiliations:
+  - affiliations:
   - name: Carnegie Mellon University, Pittsburgh, Pennsylvania
     index: 1
   - name: Univ. Grenoble Alpes, CNRS, UMR 5525, TIMC / BCM, 38000 Grenoble, France
@@ -412,10 +412,11 @@ How to use it?
 ### **Figures & Tables**
 
 ![Figure 1](./image1.png) 
-*Figure 1: Overview of the methodology implemented* 
 
-![Figure 2](./image2.png)  
-*Figure 2: Plot of Tetrad-discovered causal relationships from MIMIC-III CareVue subset* [johnson2022mimic]
+**Figure 1: Overview of the methodology implemented**
+
+![Figure 2](./image2.jpg)  
+**Figure 2: Plot of Tetrad-discovered causal relationships from MIMIC-III CareVue subset** [johnson2022mimic]
 
 ## 2.5 Lenski-esque GNN Competition Trials
 
