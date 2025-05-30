@@ -5,13 +5,13 @@ tags:
   - at least 3 is recommended
 authors:
   - name: Siddharth Sabata
-    orcid: 0000-0003-8909-4794
+    orcid: 0009-0003-8909-4794
     affiliation: 1
   - name: Jędrzej Kubica
     orcid: 0000-0001-7037-3900
     affiliation: 2
   - name: Rishika Gupta
-    orcid: ''
+    orcid: 0000-0001-6246-3906
     affiliation: 3
   - name: Lars Warren Ericson
     orcid: 0000-0001-8299-9361
@@ -71,7 +71,7 @@ authors:
     orcid: ''
     affiliation: 22
   - name: Tien Ly
-    orcid: ''
+    orcid: 0009-0006-6323-587X
     affiliation: 23
   - name: Rajarshi Mondal
     orcid: ''
@@ -89,7 +89,7 @@ authors:
     orcid: ''
     affiliation: 28
   - name: Ali Saadat
-    orcid: ''
+    orcid: 0000-0002-1479-1304
     affiliation: 29
   - name: Shivank Sadasivan
     orcid: 0009-0004-4699-212
@@ -118,7 +118,7 @@ affiliations:
     index: 1
   - name: Univ. Grenoble Alpes, CNRS, UMR 5525, TIMC / BCM, 38000 Grenoble, France
     index: 2
-  - name: Department of Computer Science & Informatics, CentraleSupelec - University Paris-Saclay, Gif-sur-Yvette, France
+  - name: CiTIUS ~ Centro Singular de Investigación en Tecnoloxías Intelixentes, Santiago de Compostela, Spain
     index: 3
   - name: Catskills Research Company, Davidson, North Carolina
     index: 4
@@ -158,7 +158,7 @@ affiliations:
     index: 21
   - name: Computational Biology Department, School of Computer Science, Carnegie Mellon University, Pittsburgh, Pennsylvania
     index: 22
-  - name: San Jose State University, San Jose, CA
+  - name: Department of Computer Science, College of Science, San Jose State University, San Jose, CA
     index: 23
   - name: Department of Bioinformatics,Pondicherry University, India
     index: 24
