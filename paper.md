@@ -30,88 +30,88 @@ authors:
     affiliation: 8
   - name: Arth Banka
     orcid: 0009-0005-8600-5340
-    affiliation: 9
+    affiliation: 1
   - name: Samuel Blechman
     orcid: 0009-0005-6878-6411
-    affiliation: 10
+    affiliation: 9
   - name: Rorry Brenner
     orcid: ''
-    affiliation: 11
+    affiliation: 10
   - name: Maria Chikina
     orcid: ''
-    affiliation: 12
+    affiliation: 9
   - name: Li Chuin Chong
     orcid: 0000-0002-3574-1365
-    affiliation: 13
+    affiliation: 11
   - name: Nicholas P. Cooley
     orcid: 0000-0002-6029-304X
-    affiliation: 14
+    affiliation: 9
   - name: Daniel Chang
     orcid: 0009-0002-4148-143X
-    affiliation: 15
+    affiliation: 1
   - name: Phil Greer
     orcid: 0000-0003-2266-4265
-    affiliation: 16
+    affiliation: 12
   - name: Anshika Gupta
     orcid: ''
-    affiliation: 17
+    affiliation: 9
   - name: Avish A. Jha
     orcid: 0000-0003-1479-0456
-    affiliation: 18
+    affiliation: 1
   - name: Emrah Kacar
     orcid: ''
-    affiliation: 19
+    affiliation: 13
   - name: Nanami Kubota
     orcid: ''
-    affiliation: 20
+    affiliation: 9
   - name: William Lu
     orcid: ''
-    affiliation: 21
+    affiliation: 1
   - name: Louison Luo
     orcid: ''
-    affiliation: 22
+    affiliation: 1
   - name: Tien Ly
     orcid: 0009-0006-6323-587X
-    affiliation: 23
+    affiliation: 14
   - name: Rajarshi Mondal
     orcid: ''
-    affiliation: 24
+    affiliation: 15
   - name: Ciara O’Donoghue
     orcid: 0000-0003-0728-6083
-    affiliation: 25
+    affiliation: 13
   - name: Aung Myat Phyo
     orcid: 0009-0009-2893-3631
-    affiliation: 26
+    affiliation: 16
   - name: Peng Qiu
     orcid: ''
-    affiliation: 27
+    affiliation: 1
   - name: Glenn Ross-Dolan
     orcid: ''
-    affiliation: 28
+    affiliation: 17
   - name: Ali Saadat
     orcid: 0000-0002-1479-1304
-    affiliation: 29
+    affiliation: 18
   - name: Shivank Sadasivan
     orcid: 0009-0004-4699-212
-    affiliation: 30
+    affiliation: 1
   - name: Rebecca Satterwhite
     orcid: ''
-    affiliation: 31
+    affiliation: 9
   - name: Soham Shirolkar
     orcid: ''
-    affiliation: 32
+    affiliation: 19
   - name: Yuning Zheng
     orcid: ''
-    affiliation: 33
+    affiliation: 1
   - name: Huajin Wang
     orcid: 0000-0003-0121-4257
-    affiliation: 34
+    affiliation: 1
   - name: Melanie Gainey
     orcid: 0000-0002-4782-9647
-    affiliation: 35
+    affiliation: 1
   - name: Ben Busby
     orcid: ''
-    affiliation: 36
+    affiliation: 20
 
 affiliations:
   - name: Carnegie Mellon University, Pittsburgh, Pennsylvania
@@ -124,76 +124,44 @@ affiliations:
     index: 4
   - name: Mater Research Institute-The University of Queensland, Queensland, Australia
     index: 5
-  - name: Queen’s University Belfast, Belfast, United Kingdom.
+  - name: Queen’s University Belfast, Belfast, United Kingdom
     index: 6
-  - name: National Institute on Aging (NIA) Center for Alzheimer’s and Related Dementias(CARD), Bethesda, Maryland 20892
+  - name: National Institute on Aging (NIA) Center for Alzheimer’s and Related Dementias(CARD), Bethesda, Maryland 
     index: 7
   - name: Information Science Department, University of Arkansas at Little Rock, Pharmaceutical Science Department, University of Arkansas for Medical Sciences
     index: 8
-  - name: Computational Biology Department, School of Computer Science, Carnegie Mellon University, Pittsburgh, Pennsylvania
+ - name: University of Pittsburgh, Pittsburgh, Pennsylvania
     index: 9
-  - name: University of Pittsburgh, Department of Biomedical Informatics
+  - name: Perforated AI, Pittsburgh, Pennsylvania
     index: 10
-  - name: Perforated AI, Pittsburgh, PA
-    index: 11
-  - name: Computational and Systems Biology, University of Pittsburgh
-    index: 12
   - name: Institute for Experimental Virology, TWINCORE Centre for Experimental and Clinical Infection Research, a Medical School Hannover (MHH) and Helmholtz Centre for Infection Research (HZI) joint venture, Hannover, Germany
+    index: 11
+  - name: Ariel Precision Medicine, Pittsburgh, Pennsylvania
+    index: 12
+  - name: Complex Trait Genetics Lab, Smurfit Institute of Genetics, Trinity College Dublin, Ireland
     index: 13
-  - name: University of Pittsburgh, Department of Biomedical Informatics
+  - name: Department of Computer Science, College of Science, San Jose State University, San Jose, California
     index: 14
-  - name: Carnegie Mellon University, Pittsburgh, PA
+  - name: Department of Bioinformatics, Pondicherry University, India
     index: 15
-  - name: Ariel Precision Medicine,Pittsburgh, PA
-    index: 16
-  - name: University of Pittsburgh
-    index: 17
-  - name: Software & Societal Systems Department, School of Computer Science, Carnegie Mellon University,Pittsburgh, Pennsylvania, 15213
-    index: 18
-  - name: Complex Trait Genetics Lab, Smurfit Institute of Genetics, Trinity College Dublin, Ireland
-    index: 19
-  - name: University of Pittsburgh
-    index: 20
-  - name: Computational Biology Department, School of Computer Science, Carnegie Mellon University, Pittsburgh, Pennsylvania
-    index: 21
-  - name: Computational Biology Department, School of Computer Science, Carnegie Mellon University, Pittsburgh, Pennsylvania
-    index: 22
-  - name: Department of Computer Science, College of Science, San Jose State University, San Jose, CA
-    index: 23
-  - name: Department of Bioinformatics,Pondicherry University, India
-    index: 24
-  - name: Complex Trait Genetics Lab, Smurfit Institute of Genetics, Trinity College Dublin, Ireland
-    index: 25
   - name: Family Genomics Research Group, Department of Biology, Maynooth University, Ireland
-    index: 26
-  - name: Carnegie Mellon University
-    index: 27
-  - name: APC Microbiome Ireland, Biosciences Building, University College Cork, Ireland
-    index: 28
+    index: 16
+  - name: APC Microbiome Ireland, University College Cork, Ireland
+    index: 17
   - name: School of Life Sciences, EPFL, Lausanne, Switzerland
-    index: 29
-  - name: Computational Biology Department, Carnegie Mellon University, Pittsburgh, Pennsylvania
-    index: 30
-  - name: University of Pittsburgh, Department of Microbiology and Molecular Genetics, Pittsburgh, PA
-    index: 31
-  - name: University of South Florida
-    index: 32
-  - name: Carnegie Mellon University, Pittsburgh, PA
-    index: 33
-  - name: Carnegie Mellon University Libraries, Pittsburgh, PA
-    index: 34
-  - name: Carnegie Mellon University Libraries, Pittsburgh, PA
-    index: 35
+    index: 18
+  - name: University of South Florida, Tampa, Florida
+    index: 19
   - name: DNAnexus, Current Address NVIDIA
-    index: 36
-date: 21 May 2025
+    index: 20
+date: 30 May 2025
 bibliography: paper.bib
 biohackathon_name: "Collaborative Bioinformatics Hackathon"
 biohackathon_url: 'https://guides.library.cmu.edu/hackathon'
 biohackathon_location: "Pittsburgh, PA, 2025"
 group: BioHackrXiv
 event: Pittsburgh2025
-authors_short: Sabata et al. 
+authors_short: Sabata S. et al.
 
 ---
 
@@ -201,7 +169,7 @@ authors_short: Sabata et al.
 
 ## Overall Event
 
-In March 2025, 34 scientists from the United States, Ireland, the United Kingdom, Switzerland, France, Germany, India, and Australia gathered in Pittsburgh, Pennsylvania and virtually for a collaborative biohackathon, hosted by DNAnexus and Carnegie Mellon University Libraries. The goal of the hackathon was to explore machine learning approaches for multimodal problems in computational biology using public datasets. Teams worked on the following innovative projects: applying machine learning techniques for clustering and similarity analysis of haplotypes; adapting the StructLMM framework to study Gene-Gene (GxG) interactions; creating a nextflow workflow for generating an imputation reference panel using large-scale cohort data; optimizing discovery of causal relationships in large electronic health record (EHR) datasets using the open source causal analysis software Tetrad; examining the evolution of a graph neural network in a Lenski-esque experiment; and developing tools and workflows for generating pathway intersection diagrams and graph-based analyses for multiomics data. All projects were dedicated to study the background genomic and environmental effects underlying complex genotype-phenotype relationships. Their objective was to set foundations for further studies on predicting complex phenotypic traits using integrative multi-omic and environmental analyses.  \[All of the teams worked on background effects of genotype or phenotype\] All team projects are detailed below:
+In March 2025, 34 scientists from the United States, Ireland, the United Kingdom, Switzerland, France, Germany, India, and Australia gathered in Pittsburgh, Pennsylvania and virtually for a collaborative biohackathon, hosted by DNAnexus and Carnegie Mellon University Libraries. The goal of the hackathon was to explore machine learning approaches for multimodal problems in computational biology using public datasets. Teams worked on the following innovative projects: applying machine learning techniques for clustering and similarity analysis of haplotypes; adapting the StructLMM framework to study Gene-Gene (GxG) interactions; creating a nextflow workflow for generating an imputation reference panel using large-scale cohort data; optimizing discovery of causal relationships in large electronic health record (EHR) datasets using the open source causal analysis software Tetrad; examining the evolution of a graph neural network in a Lenski-esque experiment; and developing tools and workflows for generating pathway intersection diagrams and graph-based analyses for multiomics data. All projects were dedicated to study the background genomic and environmental effects underlying complex genotype-phenotype relationships. Their objective was to set foundations for further studies on predicting complex phenotypic traits using integrative multi-omic and environmental analyses. All team projects are detailed below:
 
 ## 1.1 Clustering of haplotype matrices
 
