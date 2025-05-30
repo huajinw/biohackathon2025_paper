@@ -1,8 +1,9 @@
 ---
 title: 'Addressing Background Genomic and Environmental Effects on Health through Accelerated Computing and Machine Learning: Results from the 2025 Hackathon at Carnegie Mellon University'
 tags:
-  - replace with your own keywords
-  - at least 3 is recommended
+  - biohackathon
+  - computational biology
+  - multiomics
 authors:
   - name: Siddharth Sabata
     orcid: 0009-0003-8909-4794
