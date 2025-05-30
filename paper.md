@@ -287,7 +287,7 @@ No significant interaction was observed between the SNV and the local ancestry P
 
 ***Implementation***
 
-Building upon [GLIMPSE2's tutorial](https://odelaneau.github.io/GLIMPSE/docs/tutorials/getting_started/) [@Rubinacci2021; @Rubinacci2022; @GLIMPSE], which provides bash script snippets for generating reference panels from a single chromosome  
+Building upon [GLIMPSE2's tutorial](https://odelaneau.github.io/GLIMPSE/docs/tutorials/getting_started/) [@Rubinacci2021; @Rubinacci2023; @GLIMPSE], which provides bash script snippets for generating reference panels from a single chromosome  
 (specifically, chromosome 22 of The 1000 Genomes Project b38 data from the EBI FTP site [@1000Genomes2015]), we developed a scalable Nextflow pipeline capable of processing all chromosomes in our dataset. Due to the complexities associated with chromosome X, it was excluded from this project.
 
 ***Dataset***
