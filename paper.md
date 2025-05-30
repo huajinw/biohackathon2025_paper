@@ -302,7 +302,7 @@ The pipeline comprises four main steps:
 3. Chunking reference data: Divide the reference data using GLIMPSE2\_chunk and prior mapping information provided in the GLIMPSE2 repository  
 4. Splitting reference chromosomes: Segment the reference chromosomes into binary chunks for all chromosomes
 
-The software tools employed in this pipeline include [bcftools](https://samtools.github.io/bcftools/) [@Danecek2021; @bcftools], [GLIMPSE2](https://odelaneau.github.io/GLIMPSE/) [@Rubinacci2021; @Rubinacci2022; @GLIMPSE], [Nextflow](https://github.com/nextflow-io/nextflow) [@DiTommaso2017; @nextflow2017], and [Docker](https://github.com/docker) [@Merkel2014; @docker].
+The software tools employed in this pipeline include [bcftools](https://samtools.github.io/bcftools/) [@Danecek2021; @bcftools], [GLIMPSE2](https://odelaneau.github.io/GLIMPSE/) [@Rubinacci2021; @Rubinacci2022; @GLIMPSE], [Nextflow](https://github.com/nextflow-io/nextflow) [@DiTommaso2017; @nextflow], and [Docker](https://github.com/docker) [@Merkel2014; @docker].
 
 ***Operation***  
 
