@@ -409,15 +409,15 @@ How to use it?
 | *Open a bash window and execute the following commands to run the project: \#\!/bin/bash \# Exit immediately if a command exits with a non-zero status set \-e \# Input to this step: User\_input\_yaml.txt echo "Step 1: Generating example user input..." Rscript GenerateExampleUserInput.r echo "Creating SQLite database..." bash Create\_SQLite\_DB.sh echo "Parsing user input and filtering dataset tables..." Rscript ParseUserInput.r \# Input to this step (Output from previous step): Knowledge.txt echo "Step 2: Running Tetrad with the parsed input..." Rscript Run\_tetrad\_from\_yaml.r echo "Step 3: Visualizing the Tetrad output..." Rscript s\_visualize\_tetrad\_output\_RS\_AMP.R echo " Done\!"* |
 | :---- |
 
-### **Figures & Tables**
 
-![Figure 1](./image1.png)
+
 
 **Figure 1: Overview of the methodology implemented**
+![Figure 1](./image1.png)
 
-![Figure 2](./image2.jpg)
 **Figure 2: Plot of Tetrad-discovered causal relationships from
 MIMIC-III CareVue subset** [@johnson2022mimic]
+![Figure 2](./image2.jpg)
 
 ## 2.5 Lenski-esque GNN Competition Trials
 
@@ -476,27 +476,23 @@ Refer to the GitHub repository ([https://github.com/collaborativebioinformatics/
 
 Once the filtered tab separated value (.tsv) file is created, utilize the graph.py executable script to generate your graphs. Provide the script with the variant .tsv file, along with an email to use for NCBI API calls. Outputs will be stored in an “outputs” folder which contains a compressed PyTorch data file, and a text file indicating the sequence of the gene graphs. To open the compressed file, utilize gzip and make sure to set “weights\_only=False” when calling torch.load(). 
 
-### **Figures and tables**
-
-![Figure 3](./image3.png)
 **Figure 3. Data integration and graph construction**  
+![Figure 3](./image3.png)
 
-![Figure 4](./image4.png)  
 **Figure 4. Genome graph**
+![Figure 4](./image4.png)  
 
-
-![Figure 5](./image5.png)
 **Figure 5. Protein network (from [@GENengnews2025])**
+![Figure 5](./image5.png)
 
-
-![Figure 6](./image6.png) 
 **Figure 6. Gene variants in population (from [@statnews2016])**  
+![Figure 6](./image6.png) 
  
+ **Figure 7. Population gene graphs (from [@nihpangenome2023])**  
 ![Figure 7](./image7.png) 
-**Figure 7. Population gene graphs (from [@nihpangenome2023])**  
  
+ **Figure 8. Generate gene-specific graphs for variant annotation and analysis**  
 ![Figure 8](./image8.png) 
-**Figure 8. Generate gene-specific graphs for variant annotation and analysis**  
  
 
 # 3. Discussion and Future Directions 
@@ -529,8 +525,8 @@ From a software perspective, it would also be valuable to package the code into 
 
 ## 3.3 Generation of imputation panels for combined sequencing with biobank data
 
-![Figure 9](./image9.png)  
 **Figure 9\. Nextflow pipeline**  
+![Figure 9](./image9.png)  
 
 
 The workflow has been successfully tested on local systems, on-premises HPC systems, DNANexus, and Google Cloud Platform (GCP). On DNANexus, the workflow takes \<1 hour to create the final binary reference files for our example dataset using 22 concurrent operators on 4 core virtual machines (mem2\_ssd1\_v2\_x4). The compute cost of generating the reference panel was USD $1.50. 
