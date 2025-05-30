@@ -411,10 +411,12 @@ How to use it?
 
 
 
-![**Figure 1: Overview of the methodology implemented**](./image1.png)
+![**Overview of the methodology implemented**](./image1.png)
+<br />
+<br />
 
 
-![**Figure 2: Plot of Tetrad-discovered causal relationships from
+![**Plot of Tetrad-discovered causal relationships from
 MIMIC-III CareVue subset** [@johnson2022mimic]](./image2.jpg)
 
 
@@ -476,22 +478,22 @@ Refer to the GitHub repository ([https://github.com/collaborativebioinformatics/
 Once the filtered tab separated value (.tsv) file is created, utilize the graph.py executable script to generate your graphs. Provide the script with the variant .tsv file, along with an email to use for NCBI API calls. Outputs will be stored in an “outputs” folder which contains a compressed PyTorch data file, and a text file indicating the sequence of the gene graphs. To open the compressed file, utilize gzip and make sure to set “weights\_only=False” when calling torch.load(). 
 
 
-![**Figure 3. Data integration and graph construction**](./image3.png)
+![**Data integration and graph construction**](./image3.png)
 
 
-![**Figure 4. Genome graph**](./image4.png)  
+![**Genome graph**](./image4.png)  
 
 
-![**Figure 5. Protein network (from [@GENengnews2025])**](./image5.png)
+![**Protein network (from [@GENengnews2025])**](./image5.png)
 
 
-![**Figure 6. Gene variants in population (from [@statnews2016])**](./image6.png) 
+![**Gene variants in population (from [@statnews2016])**](./image6.png) 
  
 
-![**Figure 7. Population gene graphs (from [@nihpangenome2023])**](./image7.png) 
+![**Population gene graphs (from [@nihpangenome2023])**](./image7.png) 
  
  
-![**Figure 8. Generate gene-specific graphs for variant annotation and analysis**](./image8.png) 
+![**Generate gene-specific graphs for variant annotation and analysis**](./image8.png) 
  
 
 # 3. Discussion and Future Directions 
@@ -525,7 +527,7 @@ From a software perspective, it would also be valuable to package the code into 
 ## 3.3 Generation of imputation panels for combined sequencing with biobank data
 
 
-![**Figure 9\. Nextflow pipeline**](./image9.png)  
+![**Nextflow pipeline**](./image9.png)  
 
 
 The workflow has been successfully tested on local systems, on-premises HPC systems, DNANexus, and Google Cloud Platform (GCP). On DNANexus, the workflow takes \<1 hour to create the final binary reference files for our example dataset using 22 concurrent operators on 4 core virtual machines (mem2\_ssd1\_v2\_x4). The compute cost of generating the reference panel was USD $1.50. 
