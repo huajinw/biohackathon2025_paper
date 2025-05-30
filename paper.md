@@ -188,11 +188,13 @@ affiliations:
     index: 36
 date: 21 May 2025
 bibliography: paper.bib
-authors_short: Sabata et al. 
 biohackathon_name: "Collaborative Bioinformatics Hackathon"
+biohackathon_url: 'https://guides.library.cmu.edu/hackathon'
 biohackathon_location: "Pittsburgh, PA, 2025"
 group: BioHackrXiv
 event: Pittsburgh2025
+authors_short: Sabata et al. 
+
 ---
 
 # 1. Introduction
