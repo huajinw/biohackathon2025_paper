@@ -188,9 +188,11 @@ affiliations:
     index: 36
 date: 21 May 2025
 bibliography: paper.bib
-authors_short: Sabata et al. (2025) BioHackrXiv
+authors_short: Sabata et al. 
+biohackathon_name: "Collaborative Bioinformatics Hackathon"
+biohackathon_location: "Pittsburgh, PA, 2025"
 group: BioHackrXiv
-event: BioHackathon Pittsburgh 2025
+event: Pittsburgh2025
 ---
 
 # 1. Introduction
@@ -409,11 +411,11 @@ How to use it?
 | *Open a bash window and execute the following commands to run the project: \#\!/bin/bash \# Exit immediately if a command exits with a non-zero status set \-e \# Input to this step: User\_input\_yaml.txt echo "Step 1: Generating example user input..." Rscript GenerateExampleUserInput.r echo "Creating SQLite database..." bash Create\_SQLite\_DB.sh echo "Parsing user input and filtering dataset tables..." Rscript ParseUserInput.r \# Input to this step (Output from previous step): Knowledge.txt echo "Step 2: Running Tetrad with the parsed input..." Rscript Run\_tetrad\_from\_yaml.r echo "Step 3: Visualizing the Tetrad output..." Rscript s\_visualize\_tetrad\_output\_RS\_AMP.R echo " Done\!"* |
 | :---- |
 
-
+<br>
 
 ![**Overview of the methodology implemented**](./image1.png)
-<br />
-<br />
+
+<br>
 
 
 ![**Plot of Tetrad-discovered causal relationships from
