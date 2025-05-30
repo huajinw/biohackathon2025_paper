@@ -161,6 +161,7 @@ biohackathon_name: "CMU-DNAnexus Collaborative Bioinformatics Hackathon"
 biohackathon_url: 'https://guides.library.cmu.edu/hackathon'
 biohackathon_location: "Pittsburgh, PA, 2025"
 group: BioHackrXiv
+event: Pittsburgh2025
 authors_short: Sabata S. et al.
 ---
 
