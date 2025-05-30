@@ -188,12 +188,11 @@ affiliations:
     index: 36
 date: 21 May 2025
 bibliography: paper.bib
-biohackathon_name: "Collaborative Bioinformatics Hackathon"
+biohackathon_name: "CMU-DNAnexus Collaborative Bioinformatics Hackathon"
 biohackathon_url: 'https://guides.library.cmu.edu/hackathon'
 biohackathon_location: "Pittsburgh, PA, 2025"
 group: BioHackrXiv
-event: Pittsburgh2025
-authors_short: Sabata et al. 
+authors_short: Sabata S. et al. 
 
 ---
 
@@ -417,6 +416,8 @@ How to use it?
 
 ![**Overview of the methodology implemented**](./image1.png)
 
+<br>
+<br>
 <br>
 
 
