@@ -127,11 +127,11 @@ affiliations:
     index: 5
   - name: Queen’s University Belfast, Belfast, United Kingdom
     index: 6
-  - name: National Institute on Aging (NIA) Center for Alzheimer’s and Related Dementias(CARD), Bethesda, Maryland 
+  - name: National Institute on Aging (NIA) Center for Alzheimer’s and Related Dementias(CARD), Bethesda, Maryland
     index: 7
   - name: Information Science Department, University of Arkansas at Little Rock, Pharmaceutical Science Department, University of Arkansas for Medical Sciences
     index: 8
- - name: University of Pittsburgh, Pittsburgh, Pennsylvania
+  - name: University of Pittsburgh, Pittsburgh, Pennsylvania
     index: 9
   - name: Perforated AI, Pittsburgh, Pennsylvania
     index: 10
@@ -162,7 +162,6 @@ biohackathon_url: 'https://guides.library.cmu.edu/hackathon'
 biohackathon_location: "Pittsburgh, PA, 2025"
 group: BioHackrXiv
 authors_short: Sabata S. et al.
-
 ---
 
 # 1. Introduction
