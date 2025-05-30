@@ -388,7 +388,6 @@ How to use it?
 
 <br>
 
-
 ![**Plot of Tetrad-discovered causal relationships from
 MIMIC-III CareVue subset** [@johnson2022mimic]](./image2.jpg)
 
